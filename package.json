@@ -1,0 +1,23 @@
+{
+  "name": "repasar-react-crud",
+  "version": "1.0.0",
+  "description": "repasar nodejs react",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "test"
+  },
+  "author": "salino3",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.1.2",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13"
+  }
+}
